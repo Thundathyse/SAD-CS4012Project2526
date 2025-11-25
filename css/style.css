@@ -2,23 +2,31 @@
     background-color: burlywood;
     text-align: center;
     margin: auto;
-    float: left;
+    float: middle;
 }
 
 .Links {
-    background-color: burlywood;
-    text-align: left;
+    font-family: 'Default';font-size: 22px;
+    background-color: black;
+    text-align: center;
     float: left;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 h1 {
-    color: beige;
+    color: ivory;
 }
 
-body {
-    background-color: ivory;
+html {
+    font-family: 'Courier New';font-size: 22px;
+    height: 100%;
+    background: linear-gradient(0deg, black, burlywood 50%) no-repeat;
 }
 
 li {
-    color: beige;
+    display:inline;
+    color: ivory;
 }
