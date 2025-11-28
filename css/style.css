@@ -45,6 +45,15 @@ html {
     background: linear-gradient(0deg, black, burlywood 50%) no-repeat;
 }
 
+html body{
+	margin: 0;
+	padding:0;
+	background: linear-gradient(to bottom, burlywood 0%, black 150%);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size: cover;
+}
+
 body {
     font-family: 'Courier New';font-size: 22px;
     color: ivory;
