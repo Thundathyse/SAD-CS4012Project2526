@@ -23,21 +23,6 @@ html body{
 	max-width: 1000px;
 	
 }
-/*Tablet*/
-@media(max-width:768px){
-	body{
-		font-size:16px;
-	}
-}
-
-/*Mobile phones*/
-@media(max-width:480px){
-	body{
-		font-size:14px;
-	}
-}
-
-
 
 #header{
 	 background-color: burlywood;
@@ -187,7 +172,52 @@ td{
 	left: 180px;
 }
 
-
+@media(min-width:700px){
+	.dropdown{
+	display: none;		
+	max-width: 1000px;
+	position: static;
+	background-color: transparent;
+	}
+	
+	header{
+	overflow: hidden;		
+	}
+	#aboutus p{
+	width: 36%;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 20px;
+	position: absolute;
+	color: #FFFFFF;
+	border-width: 5px;
+	border-style: solid;
+	top: 90px;
+	right: 33px;
+	}
+	#aboutus
+	#schedule
+	#contact
+	#speech
+	{
+	position: relative;		
+	}
+	main{
+	width: 60%;
+	}
+	aside{
+	width: 28%;
+	margin-right: 0px;
+	}
+	main,aside{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	float: left;
+	font-size: 0.875em;
+	}
+	footer{
+	clear: left;		
+	}
 
 #footer{
 	 font-family: 'Default';font-size: 22px;
@@ -201,6 +231,7 @@ td{
 	#footer p {
 	color:white;
 }
+
 
 
 
