@@ -118,6 +118,15 @@ td{
 	float: left;
 	color: #1E1E1E;
 	
+	.dropdown-content{
+	max-width: 1000px;
+	position: static;
+	background-color: transparent;
+	}
+	.active.collapsed{
+	opacity: 1;		
+	}
+	
 	main{
 	width: 60%;
 	}
@@ -146,6 +155,7 @@ td{
 	#footer p {
 	color:white;
 }
+
 
 
 
