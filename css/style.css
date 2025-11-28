@@ -1,42 +1,24 @@
-.Top {
-    background-color: burlywood;
-    text-align: center;
-    margin: auto;
-    float: middle;
+@ -11,6 +11,19 @@
+    float: left;
 }
 
-.Listen {
+.Explore {
     background-color: black;
     border: 10px dashed ivory;
-    float: left;
+    float: right;
+}
+
+.Learn {
+    background-color: black;
+    border: 10px dashed ivory;
+    width: 625px;
+    float: right;
 }
 
 .Links {
     font-family: 'Default';font-size: 22px;
     background-color: black;
-    text-align: center;
-    float: left;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-}
-
-h1 {
-    color: ivory;
-}
-
-html {
-    font-family: 'Courier New';font-size: 22px;
-    height: 100%;
-    background: linear-gradient(0deg, black, burlywood 50%) no-repeat;
-}
-
-body {
-    font-family: 'Courier New';font-size: 22px;
-    color: ivory;
-}
-
+@ -40,48 +53,4 @@ body {
 li {
     display:inline;
     color: ivory;
