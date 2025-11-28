@@ -5,6 +5,15 @@
     float: middle;
 }
 
+html body{
+	margin: 0;
+	padding:0;
+	background: linear-gradient(to bottom, burlywood 0%, black 150%);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size: cover;
+}
+
 .Links {
     font-family: 'Default';font-size: 22px;
     background-color: black;
