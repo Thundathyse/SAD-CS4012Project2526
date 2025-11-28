@@ -93,14 +93,6 @@ main, aside {
 }
 	
 
-	
-
-
-
-
-
-
-
 table {
 width : 100%;
 }
@@ -118,6 +110,13 @@ td{
 	header{
 	overflow: hidden;		
 	}
+	.dropdown-content a{
+	width: 20%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-bottom: 20px;
+	float: left;
+	color: #1E1E1E;
 	
 	main{
 	width: 60%;
@@ -147,6 +146,7 @@ td{
 	#footer p {
 	color:white;
 }
+
 
 
 
