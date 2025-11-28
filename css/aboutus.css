@@ -91,20 +91,6 @@ main, aside {
 	margin-left: 4%;
 	margin-right: 4%;
 	
-#aboutus {
-  position: relative;
-  top: 200px;
-  left: 0px;
-  height:250px;
-  width: 500px;
-	background: #DDDDDD;
-	margin-left: 50px;
-	margin-right: 50px;
-	padding-left: 25px;
-	padding-right: 25px;
-	 color:#222222;
-	 text-align:center;
-	}
 
 	
 #contact{
@@ -209,6 +195,7 @@ td{
 	#footer p {
 	color:white;
 }
+
 
 
 
