@@ -46,6 +46,7 @@ html body{
 		  
 
 .dropdown {
+	
 position:absolute;
   top: 140px;
   left: 1200px;
@@ -73,9 +74,9 @@ position:absolute;
 .dropdown-content a:hover {
 	background-color: #DDDDDD;	
 }
-.dropdown:hover .dropdown-content{
-	display: block;
-}	
+	.dropdown:hover .dropdown-content{
+		display: block;
+	}	
 
 
 h1 {
@@ -84,9 +85,12 @@ h1 {
 }
 
 h2 {
-	color:#222222;
+	color:color:#222222;
 }
-
+main, aside {
+	margin-left: 4%;
+	margin-right: 4%;
+	
 #aboutus {
   position: relative;
   top: 200px;
@@ -172,35 +176,11 @@ td{
 }
 
 @media(min-width:700px){
-	.dropdown{
-	display: none;		
-	max-width: 1000px;
-	position: static;
-	background-color: transparent;
-	}
 	
 	header{
 	overflow: hidden;		
 	}
-	#aboutus p{
-	width: 36%;
-	padding-left: 25px;
-	padding-right: 25px;
-	padding-top: 20px;
-	position: absolute;
-	color: #FFFFFF;
-	border-width: 5px;
-	border-style: solid;
-	top: 90px;
-	right: 33px;
-	}
-	#aboutus
-	#schedule
-	#contact
-	#speech
-	{
-	position: relative;		
-	}
+	
 	main{
 	width: 60%;
 	}
@@ -214,12 +194,11 @@ td{
 	float: left;
 	font-size: 0.875em;
 	}
-	footer{
-	clear: left;		
-	}
+	
+
 
 #footer{
-	 font-family: 'Default';font-size: 22px;
+	font-family: 'Default';font-size: 22px;
     background-color: black;
     text-align: center;
     position: relative;
@@ -230,6 +209,8 @@ td{
 	#footer p {
 	color:white;
 }
+
+
 
 
 
