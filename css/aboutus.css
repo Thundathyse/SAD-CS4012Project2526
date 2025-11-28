@@ -74,9 +74,9 @@ position:absolute;
 .dropdown-content a:hover {
 	background-color: #DDDDDD;	
 }
-	.dropdown:hover .dropdown-content{
-		display: block;
-	}	
+.dropdown:hover .dropdown-content{
+	display: block;
+}	
 
 
 h1 {
@@ -85,7 +85,7 @@ h1 {
 }
 
 h2 {
-	color:color:#222222;
+	color:#222222;
 }
 
 #aboutus {
