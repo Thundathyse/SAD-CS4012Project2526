@@ -104,6 +104,18 @@ td{
 	text-align:center;
 }
 
+	footer {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #1E1E1E;
+	color: #FFFFFF;
+	font-size: 0.8em;
+	text-align: center
+	
+	footer p {
+	color:white;
+}
+
 @media(min-width:700px){
 	
 	header{
@@ -139,21 +151,14 @@ td{
 	float: left;
 	font-size: 0.875em;
 	}
+		footer{
+	clear: left;		
+	}	
 	
 
 
-#footer{
-	font-family: 'Default';font-size: 22px;
-    background-color: black;
-    text-align: center;
-    position: relative;
-	top:750px;
-    width: 100%;
-	
-}
-	#footer p {
-	color:white;
-}
+
+
 
 
 
