@@ -144,14 +144,14 @@ h2 {
 }
 
 
-table {
+table {
 width : 100%;
 }
 th{
 	width: 100px;
 border: 2px solid;
-border-color : #31144a;
-padding: 15px;
+border-color : #31144a;
+padding: 15px;
 }
 td{
 	text-align:center;
@@ -194,5 +194,6 @@ td{
 	#footer p {
 	color:white;
 }
+
 
 
