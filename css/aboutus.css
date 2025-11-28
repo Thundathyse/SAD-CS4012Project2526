@@ -9,9 +9,9 @@ html{
 /*Desktop*/
 body {
 	margin: 0;
-	height: 120vh;
+
 	background: linear-gradient(to bottom, burlywood 0%, black 150%);
-	background-size: 100%;
+	
 	
 }/*Tablet*/
 @media(max-width:768px){
@@ -187,6 +187,7 @@ td{
     width: 100%;
 	
 }
+
 
 
 
